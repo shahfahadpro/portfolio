@@ -7,6 +7,27 @@
     "name": "Shah Fahad",
     "role": "Fullstack Softwareentwickler"
   },
+  "home": {
+    "meta": {
+      "title": "Shah Fahad · Fullstack Engineer",
+      "description": "Fullstack Engineer in Frankfurt mit fünf Jahren Erfahrung mit produktiven React- und Node-Anwendungen, aktuell M.Sc. in Web and Data Science."
+    },
+    "hero": {
+      "eyebrow": "Fullstack Engineer · Frankfurt, Deutschland",
+      "h1": "Shah Fahad",
+      "lead": "Fünf Jahre Erfahrung mit React- und Node-Anwendungen in der Produktion, zuletzt als Senior Software Engineer in einem 17-köpfigen Team. Aktuell studiere ich Web and Data Science (M.Sc.) an der Universität Koblenz und bewege mich in Richtung Arbeit, die beides verbindet.",
+      "metrics": [
+        { "value": "5+ Jahre", "label": "Software in Produktion" },
+        {
+          "value": "45 Punkte",
+          "label": "Lighthouse-Verbesserung an einem Live-Produkt"
+        },
+        { "value": "60%", "label": "weniger Latenz bei der Datensynchronisation" }
+      ],
+      "ctaPrimary": "Meine Arbeit ansehen",
+      "ctaSecondary": "Lebenslauf herunterladen"
+    }
+  },
   "nav": {
     "label": "Hauptnavigation",
     "about": "Über mich",
