@@ -1,0 +1,136 @@
+@import 'tailwindcss';
+
+/* Pair Tailwind's `dark:` variant with next-themes' class strategy (`.dark` on <html>). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+  ── Palette: "Kiln" ─────────────────────────────────────────────────────────
+  Design tokens live here as raw CSS custom properties. Components never hardcode
+  colors — they use the semantic Tailwind utilities (bg-bg, text-ink, …) that map
+  onto these vars below. Swapping to another palette = editing these two blocks only.
+*/
+:root {
+  --bg: #f5f1eb; /* warm paper, never pure white */
+  --surface: #ede7de;
+  --ink: #14110f;
+  --ink-muted: #6b635b;
+  --accent: #c1440e; /* terracotta */
+  --accent-ink: #ffffff;
+  --secondary: #0f4c5c; /* deep teal */
+  --border: #dcd3c7;
+}
+
+.dark {
+  --bg: #14110f;
+  --surface: #1e1a17;
+  --ink: #f5f1eb;
+  --ink-muted: #9a9086;
+  --accent: #e4693a;
+  --accent-ink: #14110f;
+  --secondary: #4e9aab;
+  --border: #2e2822;
+}
+
+/*
+  Map raw tokens onto Tailwind's theme. `inline` keeps the reference to our own
+  vars, so utilities like `bg-bg` resolve to `var(--bg)` at runtime and flip with
+  the `.dark` class — no rebuild, no per-component edits when the palette changes.
+*/
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-secondary: var(--secondary);
+  --color-border: var(--border);
+
+  /* Typography — self-hosted via next/font (see app/fonts.ts). */
+  --font-display: var(--font-fraunces), ui-serif, Georgia, 'Times New Roman', serif;
+  --font-sans: var(--font-plex-sans), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, 'SFMono-Regular', 'Menlo', monospace;
+
+  /*
+    Fluid type scale (clamp: min → viewport-fluid → max). Mobile-first: the min is
+    the phone size, the max caps growth on large screens. Utilities: text-eyebrow,
+    text-sm … text-display.
+  */
+  --text-eyebrow: 0.75rem;
+  --text-eyebrow--line-height: 1.2;
+  --text-eyebrow--letter-spacing: 0.14em;
+
+  --text-sm: clamp(0.8125rem, 0.79rem + 0.11vw, 0.875rem);
+  --text-sm--line-height: 1.6;
+
+  --text-base: clamp(1rem, 0.965rem + 0.18vw, 1.125rem);
+  --text-base--line-height: 1.75;
+
+  --text-lg: clamp(1.125rem, 1.06rem + 0.33vw, 1.375rem);
+  --text-lg--line-height: 1.6;
+
+  --text-xl: clamp(1.375rem, 1.24rem + 0.68vw, 1.875rem);
+  --text-xl--line-height: 1.35;
+
+  --text-2xl: clamp(1.75rem, 1.5rem + 1.25vw, 2.75rem);
+  --text-2xl--line-height: 1.18;
+
+  --text-3xl: clamp(2.25rem, 1.8rem + 2.25vw, 4rem);
+  --text-3xl--line-height: 1.08;
+
+  --text-display: clamp(2.75rem, 1.95rem + 4vw, 5.5rem);
+  --text-display--line-height: 1.02;
+  --text-display--letter-spacing: -0.02em;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    line-height: 1.75;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    color: var(--ink);
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  /* Visible, accent-colored focus for keyboard users only. */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: var(--accent-ink);
+  }
+}
+
+/* Motion is subtle by default and fully neutralized when the user opts out. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
