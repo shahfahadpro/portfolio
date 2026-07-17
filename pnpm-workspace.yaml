@@ -1,0 +1,10 @@
+# Static export needs none of these native postinstall builds:
+#   sharp          — image optimization (we use images.unoptimized)
+#   @parcel/watcher — dev-only file watching
+#   @swc/core       — Next ships its own @next/swc
+#   unrs-resolver   — optional ESLint import resolver (JS fallback is fine)
+allowBuilds:
+  '@parcel/watcher': false
+  '@swc/core': false
+  sharp: false
+  unrs-resolver: false
