@@ -8,6 +8,7 @@ import { ThemeProvider } from '@/components/providers/theme-provider';
 import { SkipLink } from '@/components/layout/skip-link';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
+import { isIndexable } from '@/lib/seo';
 import { fontVariables } from '../fonts';
 import '../globals.css';
 
@@ -30,6 +31,8 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'meta' });
   return {
     title: { default: t('titleDefault'), template: t('titleTemplate') },
+    // Inherited by every page. Unindexed everywhere except the production domain.
+    robots: isIndexable ? undefined : { index: false, follow: false },
   };
 }
 

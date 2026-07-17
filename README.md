@@ -46,3 +46,16 @@ The base path is read from `NEXT_PUBLIC_BASE_PATH` (empty by default):
 
 GitHub Pages deploys automatically from `main` via
 [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+
+### Search-engine indexing
+
+Indexing is off by default so staging deployments never leak into search results. It's
+controlled by `NEXT_PUBLIC_INDEXABLE` and applied site-wide (see [`lib/seo.ts`](lib/seo.ts)):
+
+| `NEXT_PUBLIC_INDEXABLE`         | `robots.txt`  | Per-page meta       |
+| ------------------------------- | ------------- | ------------------- |
+| _(unset / anything but `true`)_ | `Disallow: /` | `noindex, nofollow` |
+| `true`                          | `Allow: /`    | normal (indexable)  |
+
+Set it to `true` **only** on the final production domain (e.g. a Vercel **Production**
+environment variable). Leave it unset on GitHub Pages and Vercel preview deployments.
