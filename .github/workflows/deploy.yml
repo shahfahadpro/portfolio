@@ -37,6 +37,10 @@ jobs:
 
       - name: Build static export
         run: pnpm build
+        env:
+          # Project site is served under /<repo>/. Set to '' if this ever moves to a
+          # user site (shahfahadpro.github.io) or a custom domain.
+          NEXT_PUBLIC_BASE_PATH: /portfolio
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
