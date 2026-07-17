@@ -29,10 +29,10 @@
   --surface: #1e1a17;
   --ink: #f5f1eb;
   --ink-muted: #9a9086;
-  --accent: #e4693a;
+  --accent: #d95f31; /* terracotta, tuned down from orange for cross-theme brand parity */
   --accent-ink: #14110f;
   --secondary: #4e9aab;
-  --border: #2e2822;
+  --border: #3a332c; /* lifted from #2e2822 so dividers are visible on --bg */
 }
 
 /*

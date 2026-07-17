@@ -54,7 +54,7 @@ const colorTokens: {
     name: '--accent',
     swatch: 'bg-accent',
     light: '#C1440E',
-    dark: '#E4693A',
+    dark: '#D95F31',
     note: 'Terracotta',
   },
   {
@@ -75,7 +75,7 @@ const colorTokens: {
     name: '--border',
     swatch: 'bg-border',
     light: '#DCD3C7',
-    dark: '#2E2822',
+    dark: '#3A332C',
     note: 'Hairlines & dividers',
   },
 ];
@@ -129,7 +129,7 @@ const typeScale: {
     className: 'text-base',
     font: 'font-sans',
     family: 'IBM Plex Sans',
-    sample: 'Body text — the default reading size.',
+    sample: 'Body text, the default reading size.',
   },
   {
     token: 'text-sm',
@@ -277,7 +277,7 @@ export default async function StyleGuidePage({ params }: PageProps) {
         <div className="bg-surface py-4">
           <Container className="border-accent rounded-md border border-dashed py-6">
             <p className="text-ink-muted text-center font-mono text-xs">
-              &lt;Container&gt; · max-w-5xl · centered · px-5 → px-8 gutters
+              &lt;Container&gt; · max-w-5xl · centered · px-5 to px-8 gutters
             </p>
           </Container>
         </div>
@@ -289,7 +289,7 @@ export default async function StyleGuidePage({ params }: PageProps) {
             <Section className="px-6">
               <div className="border-secondary bg-bg rounded border border-dashed py-3 text-center">
                 <p className="text-ink-muted font-mono text-xs">
-                  &lt;Section&gt; content · vertical rhythm py-16 → py-28
+                  &lt;Section&gt; content · vertical rhythm py-16 to py-28
                 </p>
               </div>
             </Section>

@@ -52,7 +52,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
       <body className="flex min-h-dvh flex-col">
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="light"
           enableSystem
           disableTransitionOnChange
         >
