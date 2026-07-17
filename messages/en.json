@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "titleDefault": "Shah Fahad",
+    "titleTemplate": "%s · Shah Fahad"
+  },
+  "brand": {
+    "name": "Shah Fahad",
+    "role": "Fullstack Software Engineer"
+  },
+  "nav": {
+    "label": "Primary",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "themeToggle": "Toggle color theme",
+    "languageLabel": "Language",
+    "switchToEnglish": "Switch to English",
+    "switchToGerman": "Switch to German"
+  },
+  "footer": {
+    "location": "Frankfurt, Germany",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you’re looking for doesn’t exist or has moved.",
+    "back": "Back to home"
+  }
+}

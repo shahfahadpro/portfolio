@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "titleDefault": "Shah Fahad",
+    "titleTemplate": "%s · Shah Fahad"
+  },
+  "brand": {
+    "name": "Shah Fahad",
+    "role": "Fullstack-Softwareentwickler"
+  },
+  "nav": {
+    "label": "Hauptnavigation",
+    "about": "Über mich",
+    "experience": "Erfahrung",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "a11y": {
+    "skipToContent": "Zum Inhalt springen",
+    "themeToggle": "Farbschema umschalten",
+    "languageLabel": "Sprache",
+    "switchToEnglish": "Zu Englisch wechseln",
+    "switchToGerman": "Zu Deutsch wechseln"
+  },
+  "footer": {
+    "location": "Frankfurt, Deutschland",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "back": "Zurück zur Startseite"
+  }
+}
