@@ -39,10 +39,10 @@ and adding a matching `messages/<locale>.json`.
 
 The base path is read from `NEXT_PUBLIC_BASE_PATH` (empty by default):
 
-| Target | `NEXT_PUBLIC_BASE_PATH` | Served at |
-| --- | --- | --- |
-| GitHub Pages (project site) | `/portfolio` | `https://shahfahadpro.github.io/portfolio/` |
-| Vercel / custom domain | _(empty)_ | root |
+| Target                      | `NEXT_PUBLIC_BASE_PATH` | Served at                                   |
+| --------------------------- | ----------------------- | ------------------------------------------- |
+| GitHub Pages (project site) | `/portfolio`            | `https://shahfahadpro.github.io/portfolio/` |
+| Vercel / custom domain      | _(empty)_               | root                                        |
 
 GitHub Pages deploys automatically from `main` via
 [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
