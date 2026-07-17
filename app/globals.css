@@ -10,6 +10,9 @@
   onto these vars below. Swapping to another palette = editing these two blocks only.
 */
 :root {
+  /* Tells the browser its own canvas is light, so the surface shown during a
+     navigation/repaint gap matches the theme instead of flashing white. */
+  color-scheme: light;
   --bg: #f5f1eb; /* warm paper, never pure white */
   --surface: #ede7de;
   --ink: #14110f;
@@ -21,6 +24,7 @@
 }
 
 .dark {
+  color-scheme: dark;
   --bg: #14110f;
   --surface: #1e1a17;
   --ink: #f5f1eb;
@@ -85,6 +89,9 @@
 
 @layer base {
   html {
+    /* Paint the themed background on the root element too — not just <body> — so no
+       bare white canvas shows through while the locale layout subtree swaps. */
+    background-color: var(--bg);
     -webkit-text-size-adjust: 100%;
     scroll-behavior: smooth;
   }
