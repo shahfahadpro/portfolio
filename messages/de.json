@@ -157,6 +157,59 @@
       }
     ]
   },
+  "skills": {
+    "meta": {
+      "title": "Kenntnisse · Shah Fahad",
+      "description": "Der Stack, mit dem Shah Fahad arbeitet, von React und TypeScript bis Node, Datenbanken und Cloud, plus die Data-Science-Werkzeuge aus seinem M.Sc."
+    },
+    "h1": "Kenntnisse",
+    "lead": "Der Stack, mit dem ich produktiv gearbeitet habe, und die Werkzeuge, die ich mir gerade im Rahmen meines M.Sc. aneigne. Ich habe sie ehrlich getrennt: Was ich in der Produktion eingesetzt habe, steht getrennt von dem, was ich noch lerne.",
+    "tier1": {
+      "heading": "In Produktion",
+      "skills": [
+        { "name": "React", "icon": "react" },
+        { "name": "Next.js", "icon": "nextjs" },
+        { "name": "TypeScript", "icon": "typescript" },
+        { "name": "JavaScript", "icon": "javascript" },
+        { "name": "Angular", "icon": "angular" },
+        { "name": "Redux", "icon": "redux" },
+        { "name": "Zustand", "icon": "zustand" },
+        { "name": "Recoil", "icon": "recoil" },
+        { "name": "React Query", "icon": "reactquery" },
+        { "name": "Tailwind CSS", "icon": "tailwindcss" },
+        { "name": "Storybook", "icon": "storybook" },
+        { "name": "Node.js", "icon": "nodejs" },
+        { "name": "NestJS", "icon": "nestjs" },
+        { "name": "Express", "icon": "express" },
+        { "name": "REST APIs", "icon": "restapi" },
+        { "name": "WebSockets", "icon": "websockets" },
+        { "name": "GraphQL", "icon": "graphql" },
+        { "name": "MongoDB", "icon": "mongodb" },
+        { "name": "MySQL", "icon": "mysql" },
+        { "name": "PostgreSQL", "icon": "postgresql" },
+        { "name": "AWS", "icon": "aws" },
+        { "name": "Docker", "icon": "docker" },
+        { "name": "CI/CD", "icon": "cicd" },
+        { "name": "Git", "icon": "git" },
+        { "name": "GitHub Actions", "icon": "githubactions" },
+        { "name": "Jest", "icon": "jest" },
+        { "name": "Cypress", "icon": "cypress" },
+        { "name": "Python", "icon": "python" },
+        { "name": "Claude API", "icon": "claude" },
+        { "name": "OpenAI API", "icon": "openai" }
+      ]
+    },
+    "tier2": {
+      "heading": "Aktuell im M.Sc.",
+      "skills": [
+        { "name": "pandas", "icon": "pandas" },
+        { "name": "NumPy", "icon": "numpy" },
+        { "name": "scikit-learn", "icon": "scikitlearn" },
+        { "name": "Jupyter", "icon": "jupyter" },
+        { "name": "RAG pipelines", "icon": "rag" }
+      ]
+    }
+  },
   "nav": {
     "label": "Hauptnavigation",
     "about": "Über mich",

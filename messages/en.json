@@ -150,6 +150,59 @@
       }
     ]
   },
+  "skills": {
+    "meta": {
+      "title": "Skills · Shah Fahad",
+      "description": "The stack Shah Fahad ships with, from React and TypeScript to Node, databases, and cloud, plus the data science tools he's learning through an M.Sc."
+    },
+    "h1": "Skills",
+    "lead": "The stack I've shipped with, and the tools I'm picking up through my M.Sc. I've split them honestly, what I've used in production sits apart from what I'm still learning.",
+    "tier1": {
+      "heading": "In production",
+      "skills": [
+        { "name": "React", "icon": "react" },
+        { "name": "Next.js", "icon": "nextjs" },
+        { "name": "TypeScript", "icon": "typescript" },
+        { "name": "JavaScript", "icon": "javascript" },
+        { "name": "Angular", "icon": "angular" },
+        { "name": "Redux", "icon": "redux" },
+        { "name": "Zustand", "icon": "zustand" },
+        { "name": "Recoil", "icon": "recoil" },
+        { "name": "React Query", "icon": "reactquery" },
+        { "name": "Tailwind CSS", "icon": "tailwindcss" },
+        { "name": "Storybook", "icon": "storybook" },
+        { "name": "Node.js", "icon": "nodejs" },
+        { "name": "NestJS", "icon": "nestjs" },
+        { "name": "Express", "icon": "express" },
+        { "name": "REST APIs", "icon": "restapi" },
+        { "name": "WebSockets", "icon": "websockets" },
+        { "name": "GraphQL", "icon": "graphql" },
+        { "name": "MongoDB", "icon": "mongodb" },
+        { "name": "MySQL", "icon": "mysql" },
+        { "name": "PostgreSQL", "icon": "postgresql" },
+        { "name": "AWS", "icon": "aws" },
+        { "name": "Docker", "icon": "docker" },
+        { "name": "CI/CD", "icon": "cicd" },
+        { "name": "Git", "icon": "git" },
+        { "name": "GitHub Actions", "icon": "githubactions" },
+        { "name": "Jest", "icon": "jest" },
+        { "name": "Cypress", "icon": "cypress" },
+        { "name": "Python", "icon": "python" },
+        { "name": "Claude API", "icon": "claude" },
+        { "name": "OpenAI API", "icon": "openai" }
+      ]
+    },
+    "tier2": {
+      "heading": "Growing through my M.Sc.",
+      "skills": [
+        { "name": "pandas", "icon": "pandas" },
+        { "name": "NumPy", "icon": "numpy" },
+        { "name": "scikit-learn", "icon": "scikitlearn" },
+        { "name": "Jupyter", "icon": "jupyter" },
+        { "name": "RAG pipelines", "icon": "rag" }
+      ]
+    }
+  },
   "nav": {
     "label": "Primary",
     "about": "About",
