@@ -21,7 +21,7 @@ export default function GlobalNotFound() {
         <p className="text-eyebrow text-accent font-mono font-medium uppercase">404</p>
         <h1 className="text-3xl">Page not found</h1>
         <p className="text-ink-muted max-w-[48ch]">
-          The page you’re looking for doesn’t exist or has moved.
+          {"The page you're looking for doesn't exist or has moved."}
         </p>
         <a href={`${basePath}/en/`} className={buttonVariants({ variant: 'primary' })}>
           Back to home
