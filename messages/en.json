@@ -7,10 +7,16 @@
     "name": "Shah Fahad",
     "role": "Fullstack Software Engineer"
   },
+  "sections": {
+    "about": { "id": "about" },
+    "experience": { "id": "experience" },
+    "skills": { "id": "skills" },
+    "contact": { "id": "contact" }
+  },
   "home": {
     "meta": {
       "title": "Shah Fahad · Fullstack Engineer",
-      "description": "Fullstack engineer in Frankfurt with five years building React and Node applications in production, now pursuing an M.Sc. in Web and Data Science."
+      "description": "Fullstack engineer in Frankfurt with five years building React and Node applications in production, now studying Web and Data Science. Open to fullstack and data roles."
     },
     "hero": {
       "eyebrow": "Fullstack Engineer · Frankfurt, Germany",
@@ -26,10 +32,6 @@
     }
   },
   "about": {
-    "meta": {
-      "title": "About · Shah Fahad",
-      "description": "Fullstack engineer in Frankfurt, five years across React, Node, and production APIs, currently studying Web and Data Science at the University of Koblenz."
-    },
     "h1": "About",
     "photoAlt": "Portrait of Shah Fahad",
     "paragraphs": [
@@ -58,10 +60,6 @@
     ]
   },
   "experience": {
-    "meta": {
-      "title": "Experience · Shah Fahad",
-      "description": "Five years of product engineering across React, Node, real time pipelines, and CI/CD, from Software Engineer I to Senior Software Engineer I."
-    },
     "h1": "Experience",
     "lead": "Five years of product engineering, most of it building for client teams under constraints I didn't set. Every number below is something I measured, not an estimate.",
     "companies": [
@@ -120,10 +118,6 @@
     ]
   },
   "contact": {
-    "meta": {
-      "title": "Contact · Shah Fahad",
-      "description": "Get in touch with Shah Fahad, fullstack engineer in Frankfurt, open to fullstack and data roles."
-    },
     "h1": "Get in touch",
     "lead": "The fastest way to reach me is email. I'm open to fullstack and data roles in Germany, full time or working student, in English-speaking or bilingual teams.",
     "channels": [
@@ -151,10 +145,6 @@
     ]
   },
   "skills": {
-    "meta": {
-      "title": "Skills · Shah Fahad",
-      "description": "The stack Shah Fahad ships with, from React and TypeScript to Node, databases, and cloud, plus the data science tools he's learning through an M.Sc."
-    },
     "h1": "Skills",
     "lead": "The stack I've shipped with, and the tools I'm picking up through my M.Sc. I've split them honestly, what I've used in production sits apart from what I'm still learning.",
     "tier1": {

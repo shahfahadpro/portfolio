@@ -7,10 +7,16 @@
     "name": "Shah Fahad",
     "role": "Fullstack Softwareentwickler"
   },
+  "sections": {
+    "about": { "id": "ueber-mich" },
+    "experience": { "id": "berufserfahrung" },
+    "skills": { "id": "kenntnisse" },
+    "contact": { "id": "kontakt" }
+  },
   "home": {
     "meta": {
       "title": "Shah Fahad · Fullstack Engineer",
-      "description": "Fullstack Engineer in Frankfurt mit fünf Jahren Erfahrung mit produktiven React- und Node-Anwendungen, aktuell M.Sc. in Web and Data Science."
+      "description": "Fullstack Engineer in Frankfurt mit fünf Jahren Erfahrung mit produktiven React- und Node-Anwendungen, aktuell M.Sc. Web and Data Science. Offen für Fullstack- und Data-Rollen."
     },
     "hero": {
       "eyebrow": "Fullstack Engineer · Frankfurt, Deutschland",
@@ -29,10 +35,6 @@
     }
   },
   "about": {
-    "meta": {
-      "title": "Über mich · Shah Fahad",
-      "description": "Fullstack Engineer in Frankfurt, fünf Jahre Erfahrung mit React, Node und produktiven APIs, aktuell M.Sc. Web and Data Science an der Universität Koblenz."
-    },
     "h1": "Über mich",
     "photoAlt": "Porträt von Shah Fahad",
     "paragraphs": [
@@ -65,10 +67,6 @@
     ]
   },
   "experience": {
-    "meta": {
-      "title": "Berufserfahrung · Shah Fahad",
-      "description": "Fünf Jahre Produktentwicklung mit React, Node, Echtzeit-Pipelines und CI/CD, vom Software Engineer I bis zum Senior Software Engineer I."
-    },
     "h1": "Berufserfahrung",
     "lead": "Fünf Jahre Produktentwicklung, größtenteils für Kundenteams und unter Rahmenbedingungen, die andere gesetzt haben. Jede Zahl unten habe ich selbst gemessen, nichts davon ist geschätzt.",
     "companies": [
@@ -127,10 +125,6 @@
     ]
   },
   "contact": {
-    "meta": {
-      "title": "Kontakt · Shah Fahad",
-      "description": "Kontaktieren Sie Shah Fahad, Fullstack Engineer in Frankfurt, offen für Fullstack- und Data-Rollen."
-    },
     "h1": "Kontakt",
     "lead": "Am schnellsten erreichen Sie mich per E-Mail. Ich bin offen für Fullstack- und Data-Rollen in Deutschland, in Voll- oder Teilzeit als Werkstudent, in englischsprachigen oder zweisprachigen Teams.",
     "channels": [
@@ -158,10 +152,6 @@
     ]
   },
   "skills": {
-    "meta": {
-      "title": "Kenntnisse · Shah Fahad",
-      "description": "Der Stack, mit dem Shah Fahad arbeitet, von React und TypeScript bis Node, Datenbanken und Cloud, plus die Data-Science-Werkzeuge aus seinem M.Sc."
-    },
     "h1": "Kenntnisse",
     "lead": "Der Stack, mit dem ich produktiv gearbeitet habe, und die Werkzeuge, die ich mir gerade im Rahmen meines M.Sc. aneigne. Ich habe sie ehrlich getrennt: Was ich in der Produktion eingesetzt habe, steht getrennt von dem, was ich noch lerne.",
     "tier1": {
