@@ -28,6 +28,42 @@
       "ctaSecondary": "Lebenslauf herunterladen"
     }
   },
+  "about": {
+    "meta": {
+      "title": "Über mich · Shah Fahad",
+      "description": "Fullstack Engineer in Frankfurt, fünf Jahre Erfahrung mit React, Node und produktiven APIs, aktuell M.Sc. Web and Data Science an der Universität Koblenz."
+    },
+    "h1": "Über mich",
+    "photoAlt": "Porträt von Shah Fahad",
+    "paragraphs": [
+      "Ich bin Fullstack Engineer. Der größte Teil meiner fünf Jahre lag auf der Frontend-Seite, React, TypeScript, Next.js, aber ich habe auch die REST- und WebSocket-APIs dahinter entworfen, die Datenbankschemata darunter gestaltet und die CI/CD-Pipelines betreut, die das Ganze ausgeliefert haben. Am liebsten arbeite ich dort, wo beide Seiten aufeinandertreffen. Eine Echtzeit-Pipeline so bauen, dass sie sich auch wirklich nach Echtzeit anfühlt. Einen Lighthouse-Score von 35 auf 80 bringen, ohne dabei kaputtzumachen, wofür die Seite eigentlich da ist.",
+      "Gut vier Jahre war ich bei Creative Morph, einem Unternehmen, das für externe Kunden entwickelt. Ich habe 2022 als Software Engineer I angefangen und bin im Juni 2026 als Senior Software Engineer I gegangen. Davor habe ich bei AlgoRack in Karachi Dashboards und ein Zahlungs-Gateway gebaut. Das meiste davon war Produktentwicklung für Kundenteams: sich schnell in eine fremde Codebasis einarbeiten, in Rahmenbedingungen arbeiten, die andere gesetzt haben, und trotzdem liefern. Die Stelle war vollständig remote.",
+      "2025 bin ich nach Deutschland gezogen, um den M.Sc. Web and Data Science an der Universität Koblenz zu beginnen. In diese Richtung geht es weiter. Ich habe die Claude- und OpenAI-APIs in produktive Produkte integriert und lerne jetzt die Statistik und das Machine Learning darunter richtig, statt das Modell als Blackbox zu behandeln. Ich lebe in Frankfurt und suche hier eine Stelle."
+    ],
+    "languageNote": {
+      "heading": "Zu meinem Deutsch",
+      "body": "Mein Deutsch liegt bei B1 und wird aktiv besser. Für Rollen mit Englisch als Arbeitssprache oder gemischten Teams bin ich sofort einsatzbereit. Diese Seite gibt es auf Deutsch, weil ich es für richtig halte, hier zu arbeiten und die Sprache zu benutzen."
+    },
+    "languagesHeading": "Sprachen",
+    "languages": [
+      { "term": "Englisch", "detail": "C1, fließend" },
+      { "term": "Deutsch", "detail": "B1, wird aktiv besser" },
+      { "term": "Paschtu", "detail": "Muttersprache" },
+      { "term": "Urdu", "detail": "fließend" },
+      { "term": "Hindi", "detail": "fließend" }
+    ],
+    "educationHeading": "Ausbildung",
+    "education": [
+      {
+        "term": "M.Sc. Web and Data Science",
+        "detail": "Universität Koblenz · 2025 bis heute"
+      },
+      {
+        "term": "B.Sc. Computer Science",
+        "detail": "Mohammad Ali Jinnah University, Karachi · 2017 bis 2021"
+      }
+    ]
+  },
   "nav": {
     "label": "Hauptnavigation",
     "about": "Über mich",

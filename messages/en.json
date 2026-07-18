@@ -25,6 +25,38 @@
       "ctaSecondary": "Download CV"
     }
   },
+  "about": {
+    "meta": {
+      "title": "About · Shah Fahad",
+      "description": "Fullstack engineer in Frankfurt, five years across React, Node, and production APIs, currently studying Web and Data Science at the University of Koblenz."
+    },
+    "h1": "About",
+    "photoAlt": "Portrait of Shah Fahad",
+    "paragraphs": [
+      "I’m a fullstack engineer. Most of my five years has been on the frontend side of that, React, TypeScript, Next.js, but I’ve designed the REST and WebSocket APIs behind those interfaces, shaped the database schemas under them, and owned the CI/CD that shipped the whole thing. The work I like most is where the two sides meet. Making a real time pipeline actually feel real time. Cutting a Lighthouse score from 35 to 80 without breaking what the page was there to do in the first place.",
+      "I spent just over four years at Creative Morph, an engineering company building for external clients, joining in 2022 as a Software Engineer I and leaving in June 2026 as a Senior Software Engineer I. Before that I built dashboards and a payment gateway at AlgoRack in Karachi. Most of it was product engineering for client teams, which means learning an unfamiliar codebase quickly, working inside constraints I didn’t set, and shipping anyway. The role was fully remote.",
+      "I relocated to Germany in 2025 to start an M.Sc. in Web and Data Science at the University of Koblenz. That’s the direction I’m going. I’ve integrated the Claude and OpenAI APIs into production products, and I’m now learning the statistics and machine learning underneath properly instead of treating the model as a box that returns text. I live in Frankfurt and I’m looking for work here."
+    ],
+    "languagesHeading": "Languages",
+    "languages": [
+      { "term": "English", "detail": "C1, fluent" },
+      { "term": "German", "detail": "B1, actively improving" },
+      { "term": "Pashto", "detail": "native" },
+      { "term": "Urdu", "detail": "fluent" },
+      { "term": "Hindi", "detail": "fluent" }
+    ],
+    "educationHeading": "Education",
+    "education": [
+      {
+        "term": "M.Sc. Web and Data Science",
+        "detail": "University of Koblenz · 2025 to present"
+      },
+      {
+        "term": "B.Sc. Computer Science",
+        "detail": "Mohammad Ali Jinnah University, Karachi · 2017 to 2021"
+      }
+    ]
+  },
   "nav": {
     "label": "Primary",
     "about": "About",
