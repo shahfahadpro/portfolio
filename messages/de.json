@@ -126,6 +126,37 @@
       }
     ]
   },
+  "contact": {
+    "meta": {
+      "title": "Kontakt · Shah Fahad",
+      "description": "Kontaktieren Sie Shah Fahad, Fullstack Engineer in Frankfurt, offen für Fullstack- und Data-Rollen."
+    },
+    "h1": "Kontakt",
+    "lead": "Am schnellsten erreichen Sie mich per E-Mail. Ich bin offen für Fullstack- und Data-Rollen in Deutschland, in Voll- oder Teilzeit als Werkstudent, in englischsprachigen oder zweisprachigen Teams.",
+    "channels": [
+      {
+        "label": "E-Mail",
+        "value": "shahfahad746@gmail.com",
+        "href": "mailto:shahfahad746@gmail.com"
+      },
+      {
+        "label": "GitHub",
+        "value": "github.com/shahfahadpro",
+        "href": "https://github.com/shahfahadpro",
+        "external": true
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/shahfahadpro",
+        "href": "https://linkedin.com/in/shahfahadpro",
+        "external": true
+      },
+      {
+        "label": "Standort",
+        "value": "Frankfurt, Deutschland"
+      }
+    ]
+  },
   "nav": {
     "label": "Hauptnavigation",
     "about": "Über mich",

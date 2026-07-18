@@ -15,7 +15,7 @@
     "hero": {
       "eyebrow": "Fullstack Engineer · Frankfurt, Germany",
       "h1": "Shah Fahad",
-      "lead": "Five years building React and Node applications in production, most recently as a Senior Software Engineer on a 17 person team. I’m now doing an M.Sc. in Web and Data Science at the University of Koblenz, moving toward work that sits between the two.",
+      "lead": "Five years building React and Node applications in production, most recently as a Senior Software Engineer on a 17 person team. I'm now doing an M.Sc. in Web and Data Science at the University of Koblenz, moving toward work that sits between the two.",
       "metrics": [
         { "value": "5+ years", "label": "shipping production software" },
         { "value": "45 points", "label": "Lighthouse improvement on a live product" },
@@ -33,9 +33,9 @@
     "h1": "About",
     "photoAlt": "Portrait of Shah Fahad",
     "paragraphs": [
-      "I’m a fullstack engineer. Most of my five years has been on the frontend side of that, React, TypeScript, Next.js, but I’ve designed the REST and WebSocket APIs behind those interfaces, shaped the database schemas under them, and owned the CI/CD that shipped the whole thing. The work I like most is where the two sides meet. Making a real time pipeline actually feel real time. Cutting a Lighthouse score from 35 to 80 without breaking what the page was there to do in the first place.",
-      "I spent just over four years at Creative Morph (RemoteBase), an engineering company building for external clients, joining in 2022 as a Software Engineer I and leaving in June 2026 as a Senior Software Engineer I. Before that I built dashboards and a payment gateway at AlgoRack in Karachi. Most of it was product engineering for client teams, which means learning an unfamiliar codebase quickly, working inside constraints I didn’t set, and shipping anyway. The role was fully remote.",
-      "I relocated to Germany in 2025 to start an M.Sc. in Web and Data Science at the University of Koblenz. That’s the direction I’m going. I’ve integrated the Claude and OpenAI APIs into production products, and I’m now learning the statistics and machine learning underneath properly instead of treating the model as a box that returns text. I live in Frankfurt and I’m looking for work here."
+      "I'm a fullstack engineer. Most of my five years has been on the frontend side of that, React, TypeScript, Next.js, but I've designed the REST and WebSocket APIs behind those interfaces, shaped the database schemas under them, and owned the CI/CD that shipped the whole thing. The work I like most is where the two sides meet. Making a real time pipeline actually feel real time. Cutting a Lighthouse score from 35 to 80 without breaking what the page was there to do in the first place.",
+      "I spent just over four years at Creative Morph (RemoteBase), an engineering company building for external clients, joining in 2022 as a Software Engineer I and leaving in June 2026 as a Senior Software Engineer I. Before that I built dashboards and a payment gateway at AlgoRack in Karachi. Most of it was product engineering for client teams, which means learning an unfamiliar codebase quickly, working inside constraints I didn't set, and shipping anyway. The role was fully remote.",
+      "I relocated to Germany in 2025 to start an M.Sc. in Web and Data Science at the University of Koblenz. That's the direction I'm going. I've integrated the Claude and OpenAI APIs into production products, and I'm now learning the statistics and machine learning underneath properly instead of treating the model as a box that returns text. I live in Frankfurt and I'm looking for work here."
     ],
     "languagesHeading": "Languages",
     "languages": [
@@ -63,7 +63,7 @@
       "description": "Five years of product engineering across React, Node, real time pipelines, and CI/CD, from Software Engineer I to Senior Software Engineer I."
     },
     "h1": "Experience",
-    "lead": "Five years of product engineering, most of it building for client teams under constraints I didn’t set. Every number below is something I measured, not an estimate.",
+    "lead": "Five years of product engineering, most of it building for client teams under constraints I didn't set. Every number below is something I measured, not an estimate.",
     "companies": [
       {
         "name": "Creative Morph (RemoteBase)",
@@ -119,6 +119,37 @@
       }
     ]
   },
+  "contact": {
+    "meta": {
+      "title": "Contact · Shah Fahad",
+      "description": "Get in touch with Shah Fahad, fullstack engineer in Frankfurt, open to fullstack and data roles."
+    },
+    "h1": "Get in touch",
+    "lead": "The fastest way to reach me is email. I'm open to fullstack and data roles in Germany, full time or working student, in English-speaking or bilingual teams.",
+    "channels": [
+      {
+        "label": "Email",
+        "value": "shahfahad746@gmail.com",
+        "href": "mailto:shahfahad746@gmail.com"
+      },
+      {
+        "label": "GitHub",
+        "value": "github.com/shahfahadpro",
+        "href": "https://github.com/shahfahadpro",
+        "external": true
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/shahfahadpro",
+        "href": "https://linkedin.com/in/shahfahadpro",
+        "external": true
+      },
+      {
+        "label": "Location",
+        "value": "Frankfurt, Germany"
+      }
+    ]
+  },
   "nav": {
     "label": "Primary",
     "about": "About",
@@ -139,7 +170,7 @@
   },
   "notFound": {
     "title": "Page not found",
-    "description": "The page you’re looking for doesn’t exist or has moved.",
+    "description": "The page you're looking for doesn't exist or has moved.",
     "back": "Back to home"
   }
 }
