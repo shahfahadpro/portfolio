@@ -37,7 +37,7 @@
     "photoAlt": "Porträt von Shah Fahad",
     "paragraphs": [
       "Ich bin Fullstack Engineer. Der größte Teil meiner fünf Jahre lag auf der Frontend-Seite, React, TypeScript, Next.js, aber ich habe auch die REST- und WebSocket-APIs dahinter entworfen, die Datenbankschemata darunter gestaltet und die CI/CD-Pipelines betreut, die das Ganze ausgeliefert haben. Am liebsten arbeite ich dort, wo beide Seiten aufeinandertreffen. Eine Echtzeit-Pipeline so bauen, dass sie sich auch wirklich nach Echtzeit anfühlt. Einen Lighthouse-Score von 35 auf 80 bringen, ohne dabei kaputtzumachen, wofür die Seite eigentlich da ist.",
-      "Gut vier Jahre war ich bei Creative Morph, einem Unternehmen, das für externe Kunden entwickelt. Ich habe 2022 als Software Engineer I angefangen und bin im Juni 2026 als Senior Software Engineer I gegangen. Davor habe ich bei AlgoRack in Karachi Dashboards und ein Zahlungs-Gateway gebaut. Das meiste davon war Produktentwicklung für Kundenteams: sich schnell in eine fremde Codebasis einarbeiten, in Rahmenbedingungen arbeiten, die andere gesetzt haben, und trotzdem liefern. Die Stelle war vollständig remote.",
+      "Gut vier Jahre war ich bei Creative Morph (RemoteBase), einem Unternehmen, das für externe Kunden entwickelt. Ich habe 2022 als Software Engineer I angefangen und bin im Juni 2026 als Senior Software Engineer I gegangen. Davor habe ich bei AlgoRack in Karachi Dashboards und ein Zahlungs-Gateway gebaut. Das meiste davon war Produktentwicklung für Kundenteams: sich schnell in eine fremde Codebasis einarbeiten, in Rahmenbedingungen arbeiten, die andere gesetzt haben, und trotzdem liefern. Die Stelle war vollständig remote.",
       "2025 bin ich nach Deutschland gezogen, um den M.Sc. Web and Data Science an der Universität Koblenz zu beginnen. In diese Richtung geht es weiter. Ich habe die Claude- und OpenAI-APIs in produktive Produkte integriert und lerne jetzt die Statistik und das Machine Learning darunter richtig, statt das Modell als Blackbox zu behandeln. Ich lebe in Frankfurt und suche hier eine Stelle."
     ],
     "languageNote": {
@@ -61,6 +61,68 @@
       {
         "term": "B.Sc. Computer Science",
         "detail": "Mohammad Ali Jinnah University, Karachi · 2017 bis 2021"
+      }
+    ]
+  },
+  "experience": {
+    "meta": {
+      "title": "Berufserfahrung · Shah Fahad",
+      "description": "Fünf Jahre Produktentwicklung mit React, Node, Echtzeit-Pipelines und CI/CD, vom Software Engineer I bis zum Senior Software Engineer I."
+    },
+    "h1": "Berufserfahrung",
+    "lead": "Fünf Jahre Produktentwicklung, größtenteils für Kundenteams und unter Rahmenbedingungen, die andere gesetzt haben. Jede Zahl unten habe ich selbst gemessen, nichts davon ist geschätzt.",
+    "companies": [
+      {
+        "name": "Creative Morph (RemoteBase)",
+        "description": "Unternehmen, das Produkte für externe Kunden entwickelt.",
+        "location": "Remote",
+        "period": "Feb. 2022 bis Juni 2026",
+        "roles": [
+          {
+            "title": "Senior Software Engineer I",
+            "period": "Aug. 2024 bis Juni 2026",
+            "bullets": [
+              "Echtzeit-Monitoring-Pipelines mit WebSockets und React Query gebaut und die Zeit bis zur Auswertung von 15 auf 2 Minuten reduziert.",
+              "REST- und WebSocket-APIs entworfen und die Latenz bei der Datensynchronisation um 60% gesenkt.",
+              "Lighthouse-Score von 35 auf 80 gebracht, durch Memoization, Code Splitting und Bundle-Optimierung.",
+              "Claude- und OpenAI-APIs integriert, 5 neue GenAI-Anwendungsfälle ermöglicht und den Zeitaufwand für Routineaufgaben um 30% gesenkt.",
+              "Die Auslieferung in einem 17-köpfigen, funktionsübergreifenden Team verantwortet, mit 5 bis 10 PR-Reviews pro Woche."
+            ]
+          },
+          {
+            "title": "Software Engineer II",
+            "period": "Aug. 2023 bis Aug. 2024",
+            "bullets": [
+              "Eine gemeinsame Komponentenbibliothek mit über 15 wiederverwendbaren Komponenten aufgebaut, die 4 Entwickler in 3 produktiven Services eingesetzt haben, und Codeduplizierung um 40% reduziert.",
+              "State-Management migriert und die Bundle-Größe um 18% verringert.",
+              "CI/CD mit Docker neu aufgesetzt und damit Build-Zeit um 35% sowie Infrastrukturkosten um 20% gesenkt."
+            ]
+          },
+          {
+            "title": "Software Engineer I",
+            "period": "Feb. 2022 bis Aug. 2023",
+            "bullets": [
+              "Als einziger Entwickler ein Produkt-MVP in 6 Wochen ausgeliefert, inklusive Frontend, API-Schicht und Datenbankschema.",
+              "4 REST-API-Integrationen gebaut, die monatlich über 200 Unternehmensnutzer bedienen."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AlgoRack",
+        "location": "Karachi, Pakistan",
+        "period": "Sept. 2020 bis Jan. 2022",
+        "roles": [
+          {
+            "title": "Software Developer",
+            "period": "Sept. 2020 bis Jan. 2022",
+            "bullets": [
+              "Dashboards gebaut, die 6 REST-API-Quellen für 3 Unternehmenskunden zusammenführen.",
+              "First Contentful Paint um 40% verbessert.",
+              "Ein Zahlungs-Gateway umgesetzt, das monatlich über 10.000 Transaktionen verarbeitet und die Verkaufskonversion um 15% erhöht hat."
+            ]
+          }
+        ]
       }
     ]
   },

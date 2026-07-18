@@ -34,7 +34,7 @@
     "photoAlt": "Portrait of Shah Fahad",
     "paragraphs": [
       "I’m a fullstack engineer. Most of my five years has been on the frontend side of that, React, TypeScript, Next.js, but I’ve designed the REST and WebSocket APIs behind those interfaces, shaped the database schemas under them, and owned the CI/CD that shipped the whole thing. The work I like most is where the two sides meet. Making a real time pipeline actually feel real time. Cutting a Lighthouse score from 35 to 80 without breaking what the page was there to do in the first place.",
-      "I spent just over four years at Creative Morph, an engineering company building for external clients, joining in 2022 as a Software Engineer I and leaving in June 2026 as a Senior Software Engineer I. Before that I built dashboards and a payment gateway at AlgoRack in Karachi. Most of it was product engineering for client teams, which means learning an unfamiliar codebase quickly, working inside constraints I didn’t set, and shipping anyway. The role was fully remote.",
+      "I spent just over four years at Creative Morph (RemoteBase), an engineering company building for external clients, joining in 2022 as a Software Engineer I and leaving in June 2026 as a Senior Software Engineer I. Before that I built dashboards and a payment gateway at AlgoRack in Karachi. Most of it was product engineering for client teams, which means learning an unfamiliar codebase quickly, working inside constraints I didn’t set, and shipping anyway. The role was fully remote.",
       "I relocated to Germany in 2025 to start an M.Sc. in Web and Data Science at the University of Koblenz. That’s the direction I’m going. I’ve integrated the Claude and OpenAI APIs into production products, and I’m now learning the statistics and machine learning underneath properly instead of treating the model as a box that returns text. I live in Frankfurt and I’m looking for work here."
     ],
     "languagesHeading": "Languages",
@@ -54,6 +54,68 @@
       {
         "term": "B.Sc. Computer Science",
         "detail": "Mohammad Ali Jinnah University, Karachi · 2017 to 2021"
+      }
+    ]
+  },
+  "experience": {
+    "meta": {
+      "title": "Experience · Shah Fahad",
+      "description": "Five years of product engineering across React, Node, real time pipelines, and CI/CD, from Software Engineer I to Senior Software Engineer I."
+    },
+    "h1": "Experience",
+    "lead": "Five years of product engineering, most of it building for client teams under constraints I didn’t set. Every number below is something I measured, not an estimate.",
+    "companies": [
+      {
+        "name": "Creative Morph (RemoteBase)",
+        "description": "Engineering company building products for external clients.",
+        "location": "Remote",
+        "period": "Feb 2022 to June 2026",
+        "roles": [
+          {
+            "title": "Senior Software Engineer I",
+            "period": "Aug 2024 to June 2026",
+            "bullets": [
+              "Built real time monitoring pipelines with WebSockets and React Query, cutting insight delivery from 15 minutes to 2 minutes.",
+              "Designed REST and WebSocket APIs that reduced data sync latency by 60%.",
+              "Raised Lighthouse scores from 35 to 80 through memoization, code splitting, and bundle optimization.",
+              "Integrated the Claude and OpenAI APIs, enabling 5 new GenAI use cases and cutting routine task time by 30%.",
+              "Led delivery within a 17 engineer cross functional team, reviewing 5 to 10 pull requests weekly."
+            ]
+          },
+          {
+            "title": "Software Engineer II",
+            "period": "Aug 2023 to Aug 2024",
+            "bullets": [
+              "Built a shared component library of 15+ reusable components, adopted by 4 engineers across 3 production services and cutting duplicate code by 40%.",
+              "Migrated state management, reducing bundle size by 18%.",
+              "Redesigned CI/CD with Docker, cutting build time by 35% and infrastructure costs by 20%."
+            ]
+          },
+          {
+            "title": "Software Engineer I",
+            "period": "Feb 2022 to Aug 2023",
+            "bullets": [
+              "Shipped a product MVP as sole engineer in 6 weeks, covering frontend, API layer, and database schema.",
+              "Built 4 REST API integrations serving 200+ enterprise users monthly."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AlgoRack",
+        "location": "Karachi, Pakistan",
+        "period": "Sep 2020 to Jan 2022",
+        "roles": [
+          {
+            "title": "Software Developer",
+            "period": "Sep 2020 to Jan 2022",
+            "bullets": [
+              "Built dashboards integrating 6 REST API sources for 3 enterprise clients.",
+              "Reduced First Contentful Paint by 40%.",
+              "Built a payment gateway processing 10,000+ monthly transactions and lifting sales conversion by 15%."
+            ]
+          }
+        ]
       }
     ]
   },
