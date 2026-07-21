@@ -18,12 +18,22 @@ export function Hero() {
     <section>
       <Container>
         <Section>
-          <Eyebrow>{t('eyebrow')}</Eyebrow>
-          <h1 className="text-display mt-4">{t('h1')}</h1>
-          <p className="text-ink-muted mt-6 max-w-[60ch] text-xl">{t('lead')}</p>
+          <Eyebrow data-hero-item="1">{t('eyebrow')}</Eyebrow>
+          <h1 data-hero-item="1" className="text-display mt-4">
+            {t('h1')}
+          </h1>
+          <p
+            data-hero-item="2"
+            className="text-ink-muted mt-6 max-w-[60ch] text-xl"
+          >
+            {t('lead')}
+          </p>
 
           {/* Metric strip: hairlines via divide-border, no cards/boxes/shadows. */}
-          <ul className="divide-border mt-12 grid grid-cols-1 divide-y sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+          <ul
+            data-hero-item="3"
+            className="divide-border mt-12 grid grid-cols-1 divide-y sm:grid-cols-3 sm:divide-x sm:divide-y-0"
+          >
             {metrics.map((metric) => (
               <li
                 key={metric.label}
@@ -38,7 +48,10 @@ export function Hero() {
           </ul>
 
           {/* CTAs — in-page anchor to the Experience section + the (gated) CV download. */}
-          <div className="mt-12 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <div
+            data-hero-item="4"
+            className="mt-12 flex flex-col gap-3 sm:flex-row sm:items-center"
+          >
             <a
               href={`#${sections('experience.id')}`}
               className={buttonVariants({

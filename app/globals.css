@@ -149,6 +149,33 @@
     opacity: 0;
     transform: translateY(8px);
   }
+
+  /* Hero entrance on load: a short staggered rise + fade, h1 through CTAs. Pure CSS,
+     so it runs without JS and always completes to the visible state (never stuck
+     hidden). Outside this @media (reduced motion) the hero is simply visible. */
+  @keyframes hero-enter {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  [data-hero-item] {
+    animation: hero-enter 300ms ease-out both;
+  }
+  [data-hero-item='2'] {
+    animation-delay: 60ms;
+  }
+  [data-hero-item='3'] {
+    animation-delay: 120ms;
+  }
+  [data-hero-item='4'] {
+    animation-delay: 180ms;
+  }
 }
 
 /* Motion is subtle by default and fully neutralized when the user opts out. */
