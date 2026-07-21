@@ -8,10 +8,11 @@ const base =
   'inline-flex items-center justify-center gap-2 rounded-md font-medium tracking-tight transition-[background-color,color,opacity,border-color] duration-150 disabled:pointer-events-none disabled:opacity-50';
 
 const variantClasses: Record<ButtonVariant, string> = {
-  primary: 'bg-accent text-accent-ink hover:opacity-90',
-  secondary: 'bg-secondary text-bg hover:opacity-90',
-  outline: 'border border-border bg-transparent text-ink hover:bg-surface',
-  ghost: 'bg-transparent text-ink hover:bg-surface',
+  primary: 'bg-accent text-accent-ink hover:opacity-90 active:opacity-80',
+  secondary: 'bg-secondary text-bg hover:opacity-90 active:opacity-80',
+  outline:
+    'border border-border bg-transparent text-ink hover:bg-surface active:bg-border',
+  ghost: 'bg-transparent text-ink hover:bg-surface active:bg-border',
 };
 
 const sizeClasses: Record<ButtonSize, string> = {

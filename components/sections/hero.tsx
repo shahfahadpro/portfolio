@@ -39,7 +39,10 @@ export function Hero() {
                 key={metric.label}
                 className="py-5 first:pt-0 last:pb-0 sm:px-6 sm:py-0 sm:first:pl-0 sm:last:pr-0"
               >
-                <p className="text-ink font-mono text-2xl font-medium tracking-tight">
+                <p
+                  data-metric-value
+                  className="text-ink font-mono text-2xl font-medium tracking-tight"
+                >
                   {metric.value}
                 </p>
                 <p className="text-ink-muted mt-1 text-sm">{metric.label}</p>

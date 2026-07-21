@@ -176,6 +176,24 @@
   [data-hero-item='4'] {
     animation-delay: 180ms;
   }
+
+  /* Metric touch: the three hero numbers arrive carrying the accent, then settle to
+     ink as the metric strip lands. One quiet colour beat on the values that matter —
+     not a count-up. Colour only, so no layout shift. Aligned to the metric strip's
+     own entrance (item 3, 120ms). Absent this @media (reduced motion) the numbers
+     are simply ink from the start. */
+  @keyframes metric-settle {
+    from {
+      color: var(--accent);
+    }
+    to {
+      color: var(--ink);
+    }
+  }
+
+  [data-metric-value] {
+    animation: metric-settle 520ms ease-out 120ms both;
+  }
 }
 
 /* Motion is subtle by default and fully neutralized when the user opts out. */

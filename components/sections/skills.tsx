@@ -19,7 +19,7 @@ function SkillTier({ tier, variant }: { tier: Tier; variant: 'solid' | 'dashed' 
           <li
             key={skill.name}
             className={cn(
-              'border-border text-ink flex items-center gap-2.5 rounded-md border px-3 py-2.5',
+              'border-border text-ink flex items-center gap-2.5 rounded-md border px-3 py-2.5 transition-colors hover:bg-surface',
               variant === 'dashed' && 'border-dashed',
             )}
           >
