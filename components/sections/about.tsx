@@ -39,7 +39,11 @@ export function About() {
     locale === 'de' ? (t.raw('languageNote') as { heading: string; body: string }) : null;
 
   return (
-    <section id={sections('about.id')} className="scroll-mt-28 md:scroll-mt-16">
+    <section
+      id={sections('about.id')}
+      data-reveal
+      className="scroll-mt-28 md:scroll-mt-16"
+    >
       <Container>
         <Section className="pb-0">
           <h2 className="text-3xl">{t('h1')}</h2>

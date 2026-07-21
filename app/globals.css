@@ -134,6 +134,21 @@
   html {
     scroll-behavior: smooth;
   }
+
+  /* Section reveal-on-scroll. Sections are visible by default; JS adds `reveal-hidden`
+     to off-screen sections and removes it as each arrives. Transform + opacity only,
+     so there is no layout shift. Absent this media query (reduced motion), sections
+     are always visible with no transition. */
+  [data-reveal] {
+    transition:
+      opacity 400ms ease-out,
+      transform 400ms ease-out;
+  }
+
+  [data-reveal].reveal-hidden {
+    opacity: 0;
+    transform: translateY(8px);
+  }
 }
 
 /* Motion is subtle by default and fully neutralized when the user opts out. */

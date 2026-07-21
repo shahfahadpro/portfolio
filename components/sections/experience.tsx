@@ -17,7 +17,11 @@ export function Experience() {
   const companies = t.raw('companies') as Company[];
 
   return (
-    <section id={sections('experience.id')} className="scroll-mt-28 md:scroll-mt-16">
+    <section
+      id={sections('experience.id')}
+      data-reveal
+      className="scroll-mt-28 md:scroll-mt-16"
+    >
       <Container>
         <Section className="pb-0">
           <h2 className="text-3xl">{t('h1')}</h2>

@@ -5,6 +5,7 @@ import { About } from '@/components/sections/about';
 import { Experience } from '@/components/sections/experience';
 import { Skills } from '@/components/sections/skills';
 import { Contact } from '@/components/sections/contact';
+import { SectionReveals } from '@/components/sections/section-reveals';
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -29,6 +30,7 @@ export default async function HomePage({ params }: PageProps) {
       <Experience />
       <Skills />
       <Contact />
+      <SectionReveals />
     </>
   );
 }
