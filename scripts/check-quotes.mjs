@@ -6,7 +6,7 @@ import { extname, join } from 'node:path';
 // from their char codes so this guard file itself contains no curly glyphs:
 //   U+2018 and U+2019 (single), U+201C and U+201D (double).
 const CURLY = new RegExp(`[${String.fromCharCode(0x2018, 0x2019, 0x201c, 0x201d)}]`);
-const ROOTS = ['messages', 'app', 'components', 'lib'];
+const ROOTS = ['messages', 'app', 'components', 'lib', 'i18n'];
 const EXTENSIONS = new Set(['.json', '.ts', '.tsx']);
 const SKIP_DIRS = new Set(['node_modules', '.next', 'out']);
 
