@@ -4,12 +4,9 @@ import { Container } from '@/components/ui/container';
 import { Section } from '@/components/ui/section';
 import { Eyebrow } from '@/components/ui/eyebrow';
 import { Prose } from '@/components/ui/prose';
+import { withBasePath } from '@/lib/base-path';
 
 type DefItem = { term: string; detail: string };
-
-// next/image does not prefix string srcs with basePath, so the /public photo would 404
-// on the GitHub project site (/portfolio/...). Prefix it explicitly, like the CV link.
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
 // Definition-style list with mono terms and hairline-separated rows.
 function DefinitionList({ items }: { items: DefItem[] }) {
@@ -53,7 +50,7 @@ export function About() {
             flow-root contains the float; the explicit 413x531 prevents layout shift. */}
         <div className="border-border flow-root border-t py-12">
           <Image
-            src={`${basePath}/photos/shah_fahad_photo.jpg`}
+            src={withBasePath('/photos/shah_fahad_photo.jpg')}
             alt={t('photoAlt')}
             width={413}
             height={531}

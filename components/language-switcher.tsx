@@ -3,10 +3,10 @@
 import { useLocale, useTranslations } from 'next-intl';
 import { usePathname } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
+import { withBasePath } from '@/lib/base-path';
 import { cn } from '@/lib/utils';
 
 const shortLabel: Record<Locale, string> = { en: 'EN', de: 'DE' };
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 
 // `pathname` is locale-stripped (e.g. "/about" or "/"). Build the target as a real URL
 // so switching locale is a full document navigation, not an SPA transition. That avoids
@@ -14,7 +14,7 @@ const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
 // briefly drop the theme class (white flash) and re-emit its no-FOUC <script>.
 function localeHref(locale: Locale, pathname: string) {
   const suffix = pathname === '/' ? '' : pathname.replace(/\/+$/, '');
-  return `${basePath}/${locale}${suffix}/`;
+  return withBasePath(`/${locale}${suffix}/`);
 }
 
 export function LanguageSwitcher({ className }: { className?: string }) {
